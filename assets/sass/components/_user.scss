@@ -5,16 +5,25 @@
   align-self: baseline;
   align-items: center;
   height: 3rem;
-}
-.user__img {
-  border-radius: 50%;
-  height: 100%;
-  margin-right: 1rem;
-}
-.user__text {
-  font-weight: 400;
+
+  &__img {
+    border-radius: 50%;
+    height: 100%;
+    margin-right: 1rem;
+  }
+
+  &__text {
+    font-weight: 500;
+  }
+
+  &__date {
+    font-weight: 400;
+    font-size: small;
+    margin-left: 2rem;
+  }
 }
 
-.user-small {
+// Usuario en pequeño
+.user--small {
   height: 2rem;
 }

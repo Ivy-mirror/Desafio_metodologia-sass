@@ -1,7 +1,8 @@
+
 .h-container {
   width: 100%;
-  display: flex;
-  flex-direction: row;
+  display: flex; 
+  flex-direction: row; 
   justify-content: space-between;
 }
 
@@ -14,8 +15,8 @@
   padding-top: 1rem;
 }
 
-.aside-container {
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
+
+
+.section {
+  @include padding-4-sides($vertical-space-full-height-container, $horizontal-space-full-width);
 }
